@@ -2,7 +2,7 @@ const axios = require('axios');
 const mongoose = require('mongoose');
 const Transaction = require('./models/Transaction');
 
-mongoose.connect('mongodb://localhost:27017/your_database_name', {
+mongoose.connect('mongodb://127.0.0.1:27017/TransactionDatabase', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
